@@ -16,7 +16,7 @@ main:
     url: /posts/
     
   - title: "Miscellaneous"
-    url: /miscellaneous/test.md
+    url: /miscellaneous/
     
   # - title: "Guide"
   #   url: /markdown/
