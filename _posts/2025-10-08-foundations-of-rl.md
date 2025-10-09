@@ -18,7 +18,11 @@ Intuitively, the agent should increase the probability of actions that lead to h
 
 ## 2. Mathematical Foundation
 
-Starting from $ J(\theta) = \mathbb{E}_{\pi_\theta}[R] $, we can express it as an integral over all trajectories τ:
+Starting from 
+
+$$ J(\theta) = \mathbb{E}_{\pi_\theta}[R], $$ 
+
+we can express it as an integral over all trajectories τ:
 
 $$
 J(\theta) = \int P_\theta(\tau) R(\tau)\, d\tau
