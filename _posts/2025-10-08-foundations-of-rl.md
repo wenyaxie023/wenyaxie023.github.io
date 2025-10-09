@@ -1,11 +1,10 @@
 ---
 layout: post
 title: Foundations of Reinforcement Learning
-date: 2025-10-08
-categories: sample-posts
+date: 2025-10-08 19:20:00
+categories: [RL, Notes]
+pin: true
 ---
-
-# Foundations of Reinforcement Learning
 
 ## 1. Optimization Objective in Reinforcement Learning
 
