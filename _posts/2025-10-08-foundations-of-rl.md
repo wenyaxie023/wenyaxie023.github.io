@@ -31,7 +31,13 @@ $$
 = \mathbb{E}_{\tau \sim P_\theta}[R(\tau) \nabla_\theta \log P_\theta(\tau)]
 $$
 
-Since $$ P_\theta(\tau) = p(s_1) \prod_t \pi_\theta(a_t|s_t) p(s_{t+1}|s_t, a_t) $$, only $\pi_\theta$ depends on $\theta$:
+Since
+
+$$
+P_\theta(\tau) = p(s_1) \prod_t \pi_\theta(a_t|s_t) p(s_{t+1}|s_t, a_t),
+$$
+
+only $\pi_\theta$ depends on $\theta$:
 
 $$
 \nabla_\theta \log P_\theta(\tau) = \sum_{t=1}^T \nabla_\theta \log \pi_\theta(a_t|s_t)
@@ -73,7 +79,11 @@ $$
 $$
 
 This keeps the expected gradient unchanged because  
-$$ \mathbb{E}_{\pi_\theta}[b(s_t)\nabla_\theta \log \pi_\theta(a_t|s_t)] = 0 $$,  
+
+$$
+\mathbb{E}_{\pi_\theta}[b(s_t)\nabla_\theta \log \pi_\theta(a_t|s_t)] = 0,
+$$ 
+
 but it reduces variance by removing the predictable part of $ R_t $.
 
 The optimal baseline is the expected return given the current state:
