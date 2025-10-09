@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Foundations of Reinforcement Learning"
+title: Foundations of Reinforcement Learning
 date: 2025-10-08
-math: true
-categories: [RL, Notes]
+categories: sample-posts
 ---
 
 # Foundations of Reinforcement Learning
