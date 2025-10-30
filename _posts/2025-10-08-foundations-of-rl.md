@@ -158,7 +158,7 @@ $$
 where the reward $ r $ above replaces the standard environment reward.  
 In essence, RLHF can be viewed as PPO with an additional KL regularization term in the reward.
 
-### 3.5 GRPO (Generalized Reward-Policy Optimization)
+### 3.5 GRPO (Group Relative Policy Optimization)
 
 In RLHF, training a separate value network (critic) $ V(s) $ to estimate advantages is often unstable and computationally expensive,  
 since each state corresponds to a long text sequence and requires an additional forward pass.  
