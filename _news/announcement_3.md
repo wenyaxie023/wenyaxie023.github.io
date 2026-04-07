@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two papers accepted to ACL 2026: - [Memory management for LLM agents](https://arxiv.org/abs/2505.16067)
-- [Proactive reasoning in large language models](https://arxiv.org/abs/2601.22139)
+Two papers accepted to ACL 2026: [Memory management for LLM agents](https://arxiv.org/abs/2505.16067) and [Proactive reasoning in large language models](https://arxiv.org/abs/2601.22139)

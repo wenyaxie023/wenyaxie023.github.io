@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper has been accepted to EMNLP 2025 as an Oral Presentation! :sparkles: :smile:
+One paper accepted to EMNLP 2025 as an Oral Presentation: [WordSaladChopper](https://arxiv.org/abs/2511.00536).

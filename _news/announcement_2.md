@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper has been accepted to NeurIPS 2025 as an Oral Presentation! :sparkles: :smile:
+One paper accepted to NeurIPS 2025 as an Oral Presentation: [reproducible reasoning in FP32](https://arxiv.org/abs/2506.09501).
