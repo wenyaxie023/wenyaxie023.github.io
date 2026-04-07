@@ -9,7 +9,7 @@ profile:
   image: little_river.jpg
   image_circular: false
 
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:
@@ -30,23 +30,3 @@ Currently, I’m exploring:
 
 I’m always excited to connect. Questions, ideas, and early-stage thoughts are all welcome.
 If you have anything you'd like to discuss, feel free to reach out!
-
-<div class="about-like-section" id="about-like-section">
-  <button
-    class="about-like-button"
-    id="about-like-button"
-    type="button"
-    aria-pressed="false"
-    aria-describedby="about-like-count"
-  >
-    <span class="about-like-button__icon" aria-hidden="true">👍</span>
-    <span class="about-like-button__label">like</span>
-  </button>
-  <p class="about-like-count" id="about-like-count" aria-live="polite">counting…</p>
-</div>
-
-<script
-  defer
-  src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"
-></script>
-<script defer src="{{ '/assets/js/about-like.js' | relative_url | bust_file_cache }}"></script>
