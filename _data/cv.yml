@@ -37,13 +37,17 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Agent Memory
+    - title: Reasoning & Overthinking
       items:
-        - User-centric memory modeling (store/update/retrieve) for personalized reasoning.
+        - Why reasoning models waste decoding budget, and how they can reason more efficiently and proactively.
 
-    - title: Multi-Turn Interaction & Feedback Learning
+    - title: Memory Management for LLM Agents
       items:
-        - Leverage explicit/implicit feedback to refine answers across turns.
+        - How agents store, update, and retrieve information, for test-time adaptation and long-horizon personalization.
+
+    - title: Broad Interests
+      items:
+        - Long-horizon tasks, reasoning, memory, and human-AI collaboration.
 
 - title: Other Interests
   type: list
