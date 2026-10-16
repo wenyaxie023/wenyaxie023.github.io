@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-foundations-of-reinforcement-learning",
+        },{id: "post-ml-conference-trends-neurips-amp-iclr-2023-2026",
+        
+          title: 'ML Conference Trends: NeurIPS &amp; ICLR, 2023–2026 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "Topic trends across 32,331 accepted NeurIPS and ICLR papers, and every NeurIPS 2026 paper in one sentence.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://wenyaxie023.github.io/ml-conference-trends/", "_blank");
+          
+        },
+      },{id: "post-foundations-of-reinforcement-learning",
         
           title: "Foundations of Reinforcement Learning",
         
