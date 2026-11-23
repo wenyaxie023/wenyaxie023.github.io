@@ -1,3 +1,73 @@
 /*******************************************************************************
  * Custom styles
  *******************************************************************************/
+
+// Homepage research map: three lifecycle cards below the bio
+.research-map {
+  clear: both;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.9rem;
+  margin: 1.25rem 0 1.5rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .rm-card {
+    background: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-top: 3px solid var(--global-theme-color);
+    border-radius: 8px;
+    padding: 0.9rem 1rem 0.6rem;
+  }
+
+  .rm-stage {
+    margin: 0 0 0.6rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--global-theme-color);
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin: 0 0 0.7rem;
+    line-height: 1.35;
+  }
+
+  .rm-title {
+    display: block;
+    font-size: 0.92rem;
+    color: var(--global-text-color);
+  }
+
+  a.rm-title:hover {
+    color: var(--global-theme-color);
+    text-decoration: none;
+  }
+
+  a.rm-title::after {
+    content: " ↗";
+    font-size: 0.75em;
+    color: var(--global-text-color-light);
+  }
+
+  .rm-venue {
+    display: block;
+    margin-top: 0.15rem;
+    font-size: 0.78rem;
+    color: var(--global-text-color-light);
+
+    strong {
+      color: var(--global-theme-color);
+      font-weight: 600;
+    }
+  }
+}
