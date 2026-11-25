@@ -71,3 +71,58 @@
     }
   }
 }
+
+// Homepage research diagram (desktop); the cards above are the phone fallback
+.research-diagram-wrap {
+  clear: both;
+  margin: 1.25rem 0 1.25rem;
+
+  svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .rd-also {
+    margin: 0.4rem 0 0;
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+
+    strong {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
+@media (min-width: 640px) {
+  .research-map {
+    display: none !important;
+  }
+}
+
+@media (max-width: 639.98px) {
+  .research-diagram-wrap {
+    display: none;
+  }
+}
+
+.research-diagram { font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+.research-diagram .rd-text { fill: var(--global-text-color); }
+.research-diagram .rd-muted { fill: var(--global-text-color-light); }
+.research-diagram .rd-small { font-size: 11.5px; }
+.research-diagram .rd-label { font-size: 13px; font-weight: 600; fill: var(--global-text-color); }
+.research-diagram .rd-title-text { font-size: 15px; font-weight: 700; fill: var(--global-text-color); }
+.research-diagram .rd-stage { font-size: 12px; font-weight: 700; letter-spacing: 0.08em; fill: var(--global-theme-color); }
+.research-diagram .rd-chiptext { font-size: 12.5px; }
+.research-diagram .rd-oral { font-weight: 700; fill: var(--global-theme-color); }
+.research-diagram .rd-out { font-size: 14px; font-weight: 700; fill: var(--global-theme-color); }
+.research-diagram .rd-person { fill: var(--global-theme-color); opacity: 0.85; }
+.research-diagram .rd-signal { fill: var(--global-bg-color); stroke: var(--global-text-color-light); stroke-width: 1; }
+.research-diagram .rd-box { fill: var(--global-card-bg-color); stroke: var(--global-theme-color); stroke-width: 1.5; }
+.research-diagram .rd-divider { stroke: var(--global-divider-color); stroke-width: 1; }
+.research-diagram .rd-chip { fill: var(--global-theme-color); fill-opacity: 0.08; stroke: var(--global-theme-color); stroke-opacity: 0.45; stroke-width: 1; }
+.research-diagram .rd-ongoing { fill-opacity: 0; stroke-dasharray: 4 3; stroke: var(--global-text-color-light); stroke-opacity: 1; }
+.research-diagram .rd-line { stroke: var(--global-text-color-light); stroke-width: 1.5; fill: none; }
+.research-diagram .rd-dash { stroke-dasharray: 5 4; }
+.research-diagram .rd-arrowhead { fill: var(--global-text-color-light); }
+.research-diagram a.rd-link:hover .rd-chip { fill-opacity: 0.2; }
