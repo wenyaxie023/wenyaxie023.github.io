@@ -37,17 +37,21 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Reasoning & Overthinking
+    - title: AI That Understands People
       items:
-        - Why reasoning models waste decoding budget, and how they can reason more efficiently and proactively.
+        - How AI can infer what a person wants from vague requests, everyday activity, and feedback, both to act for the person (personal agents) and to act as the person (user simulation).
 
-    - title: Memory Management for LLM Agents
+    - title: Training
       items:
-        - How agents store, update, and retrieve information, for test-time adaptation and long-horizon personalization.
+        - Mid-training on synthetic data to predict how individuals decide, and post-training from vague, real-world user feedback.
+
+    - title: Memory and Test-Time Adaptation
+      items:
+        - How agents store, update, and retrieve what they know about a user, and how models decide when to ask, reason, or act.
 
     - title: Broad Interests
       items:
-        - Long-horizon tasks, reasoning, memory, and human-AI collaboration.
+        - Personal agents, user simulation, mid-/post-training, test-time adaptation, memory, and scaling laws.
 
 - title: Other Interests
   type: list
