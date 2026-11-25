@@ -6,7 +6,7 @@ subtitle: Ph.D. student @ UMN CSE · Personal agents · Memory · Mid-/post-trai
 
 profile:
   align: left
-  image: little_river.jpg
+  image: yosemite.jpg
   image_circular: false
 
 selected_papers: false
