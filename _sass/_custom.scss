@@ -24,8 +24,80 @@
   margin-top: 0.25rem;
 }
 
-.post article .experience ul {
-  padding-left: 1.2rem;
+// Homepage: sections below the bio always start under the photo, at full width
+.post article .clearfix h2,
+.intern-callout {
+  clear: both;
+}
+
+@media (min-width: 576px) {
+  .post article .profile {
+    width: 24%;
+  }
+}
+
+.intern-callout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1.25rem 0 1.5rem;
+  padding: 0.8rem 1.1rem;
+  border-left: 4px solid var(--global-theme-color);
+  border-radius: 6px;
+  background: var(--global-code-bg-color);
+
+  p {
+    margin: 0;
+  }
+
+  .intern-callout-btn {
+    flex: none;
+    padding: 0.35rem 0.9rem;
+    border-radius: 999px;
+    background: var(--global-theme-color);
+    color: var(--global-bg-color);
+    font-weight: 600;
+    white-space: nowrap;
+
+    &:hover {
+      opacity: 0.85;
+      text-decoration: none;
+      color: var(--global-bg-color);
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.post article .experience {
+  .exp-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .exp-org {
+    font-weight: 700;
+    margin-right: 0.4rem;
+  }
+
+  .exp-detail {
+    color: var(--global-text-color-light);
+    font-size: 0.92rem;
+  }
+
+  .exp-dates {
+    flex: none;
+    color: var(--global-text-color-light);
+    font-size: 0.92rem;
+    white-space: nowrap;
+  }
 }
 
 // Publication lists: wider figure column
@@ -51,5 +123,27 @@
       flex: 0 0 68%;
       max-width: 68%;
     }
+  }
+}
+
+// Publication entries: the badge already names the venue; the finding is the lead line
+.publications ol.bibliography li {
+  .periodical.venue {
+    display: none;
+  }
+
+  .periodical.finding {
+    margin-top: 0.3rem;
+    color: var(--global-text-color);
+    font-size: 0.95rem;
+  }
+
+  .abbr .award-label {
+    display: inline-block;
+    margin-left: 0.3rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid var(--global-theme-color);
+    color: var(--global-theme-color);
+    background: transparent;
   }
 }

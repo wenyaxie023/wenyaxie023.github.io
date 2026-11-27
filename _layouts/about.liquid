@@ -52,7 +52,20 @@ layout: default
     <!-- Experience -->
     {% if page.experience %}
       <h2>experience</h2>
-      <div class="experience">{{ page.experience | markdownify }}</div>
+      <div class="experience">
+        {% for item in page.experience %}
+          <div class="exp-row">
+            <div class="exp-main">
+              <span class="exp-org">{{ item.org }}</span>
+              <span class="exp-role">{{ item.role }}</span>
+              {% if item.detail %}
+                <div class="exp-detail">{{ item.detail }}</div>
+              {% endif %}
+            </div>
+            <div class="exp-dates">{{ item.dates }}</div>
+          </div>
+        {% endfor %}
+      </div>
     {% endif %}
 
     <!-- News -->
