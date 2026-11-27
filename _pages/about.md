@@ -24,6 +24,13 @@ experience: |
   - **Adobe**, Machine Learning Engineer Intern, San Jose (May 2026 – Aug 2026). Agent skills and workflow orchestration: making agents execute skills reliably when user requests are underspecified.
   - **CUHK (Shenzhen)**, Research Assistant (Jun 2023 – Sep 2024).
   - **OPPO**, Software Engineer, Shenzhen (Jul 2021 – Jun 2023).
+
+# Shown after news (rendered by _layouts/about.liquid).
+outside_of_research: >
+  I read widely: literature, philosophy, psychology, sociology, and economics. Books keep reminding me
+  how large and varied the world is, and that makes me genuinely happy. I also exercise regularly. It’s
+  where I relearn, every time, that pain is temporary and that my life is mine to steer. And I keep a
+  daily journal.
 ---
 
 I’m **Wenya Xie**, a Ph.D. candidate in Computer Science at the **University of Minnesota**, advised by [Prof. Zirui Liu](https://zirui-ray-liu.github.io/). Previously, I was a research assistant at CUHK (Shenzhen) with Prof. Benyou Wang and Feng Jiang.

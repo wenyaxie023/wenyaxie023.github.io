@@ -71,6 +71,12 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+    <!-- Outside of research -->
+    {% if page.outside_of_research %}
+      <h2>outside of research</h2>
+      <div class="outside-of-research">{{ page.outside_of_research | markdownify }}</div>
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
