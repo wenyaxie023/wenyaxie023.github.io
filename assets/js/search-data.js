@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
+  },{id: "nav-publications",
+          title: "publications",
+          description: "all publications in reverse chronological order. * marks equal contribution.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
@@ -64,6 +71,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-we-released-a-new-memory-benchmark-check-out-our-project-website-dynamicmem",
           title: 'We released a new memory benchmark! Check out our project website: DynamicMem.',
+          description: "",
+          section: "News",},{id: "news-i-analyzed-topic-trends-across-32-331-accepted-neurips-and-iclr-papers-ml-conference-trends",
+          title: 'I analyzed topic trends across 32,331 accepted NeurIPS and ICLR papers: ML Conference...',
           description: "",
           section: "News",},{id: "news-i-gave-a-guest-talk-remembering-a-user-simulating-a-user-in-csci-8000-at-the-university-of-georgia-thank-you-to-prof-zhen-xiang-for-the-invitation",
           title: 'I gave a guest talk, Remembering a User, Simulating a User, in CSCI...',
