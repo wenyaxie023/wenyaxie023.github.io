@@ -34,11 +34,6 @@
       institution: OPPO, Shenzhen, China
       year: 2021.7 - 2023.6
 
-- title: Academic Interests
-  type: list
-  contents:
-    - "Data and evaluation for LLM agents: how much data and how large a model it takes to do a task reliably, and how to measure it. Synthetic data, mid- and post-training, long-horizon agent evaluation, efficient reasoning."
-
 - title: Talks
   type: list
   contents:
