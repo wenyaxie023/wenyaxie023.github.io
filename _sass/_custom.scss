@@ -27,3 +27,29 @@
 .post article .experience ul {
   padding-left: 1.2rem;
 }
+
+// Homepage selected publications: wider figure column
+.selected-pubs .publications ol.bibliography li {
+  margin-bottom: 1.6rem;
+
+  .abbr abbr {
+    width: auto !important;
+  }
+
+  .preview {
+    width: 100%;
+    background: #fff;
+  }
+
+  @media (min-width: 576px) {
+    .row > .abbr {
+      flex: 0 0 32%;
+      max-width: 32%;
+    }
+
+    .row > div:not(.abbr) {
+      flex: 0 0 68%;
+      max-width: 68%;
+    }
+  }
+}

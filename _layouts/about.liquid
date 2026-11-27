@@ -45,7 +45,7 @@ layout: default
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
-      {% include selected_papers.liquid %}
+      <div class="selected-pubs">{% include selected_papers.liquid %}</div>
       <p class="all-publications"><a href="{{ '/publications/' | relative_url }}">All publications →</a></p>
     {% endif %}
 
