@@ -1,11 +1,140 @@
 ---
 ---
 
-@article{yuan2025give,
-  title={Give Me FP32 or Give Me Death? Challenges and Solutions for Reproducible Reasoning},
-  author={Yuan, Jiayi and Li, Hao and Ding, Xinheng and Xie, Wenya and Li, Yu-Jhe and Zhao, Wentian and Wan, Kun and Shi, Jing and Hu, Xia and Liu, Zirui},
-  journal={arXiv preprint arXiv:2506.09501},
-  year={2025},
+% Order matters: the homepage "selected publications" list follows file order,
+% and the publications page keeps file order within each year.
+% Fields used by _layouts/bib.liquid: abbr (venue badge), award/award_name (Oral),
+% annotation (equal-contribution note), note (one-sentence finding + tags).
+% Tags use only: data, evaluation, efficiency.
+
+% TODO(Wenya): confirm the one-sentence finding (distilled from the abstract).
+@article{xie2026dynamicmem,
+  title={DynamicMem: A Long-Horizon Memory Benchmark in Real-World Settings},
+  author={Xie, Wenya and Zhou, Shengming and Li, Zelin and Parsa, Pouya and Zhou, Shuang and Ding, Xinheng and Arvind, Chinmay and Wang, Guanchu and Braverman, Vladimir and Payani, Ali and Zheng, Yantao and Liu, Zirui},
+  journal={arXiv preprint arXiv:2606.22877 (under review)},
+  year={2026},
+  abbr={Preprint},
+  arxiv={2606.22877},
+  website={https://wenyaxie023.github.io/DynamicMem/},
+  note={As a user's history grows, memory systems rebuild the profile less accurately, even while service-task accuracy stays flat. <span class=pubtag>data</span><span class=pubtag>evaluation</span>},
   selected={true}
 }
 
+% TODO(Wenya): confirm the one-sentence finding (distilled from the abstract).
+@inproceedings{xiong2026memory,
+  title={How Memory Management Impacts LLM Agents: An Empirical Study of Experience-Following Behavior},
+  author={Xiong*, Zidi and Lin*, Yuping and Xie*, Wenya and He, Pengfei and Liu, Zirui and Tang, Jiliang and Lakkaraju, Himabindu and Xiang, Zhen},
+  booktitle={Proceedings of the 2026 Annual Meeting of the Association for Computational Linguistics},
+  year={2026},
+  abbr={ACL 2026},
+  arxiv={2505.16067},
+  award={Oral presentation at ACL 2026.},
+  award_name={Oral},
+  annotation={* Equal contribution},
+  note={Agents closely follow retrieved experiences, so errors in stored memories propagate and degrade long-term performance. <span class=pubtag>evaluation</span>},
+  selected={true}
+}
+
+% TODO(Wenya): confirm the one-sentence finding (distilled from the abstract).
+@inproceedings{xie2025wordsalad,
+  title={Word Salad Chopper: Reasoning Models Waste A Ton Of Decoding Budget On Useless Repetitions, Self-Knowingly},
+  author={Xie*, Wenya and Zhong*, Shaochen (Henry) and Le, Hoang Anh Duy and Xu, Zhaozhuo and Xie, Jianwen and Liu, Zirui},
+  booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+  year={2025},
+  abbr={EMNLP 2025},
+  arxiv={2511.00536},
+  award={Oral presentation at EMNLP 2025.},
+  award_name={Oral},
+  annotation={* Equal contribution},
+  note={Reasoning models waste much of their decoding budget on self-repetition, which a linear probe can detect and cut. <span class=pubtag>efficiency</span>},
+  selected={true}
+}
+
+% TODO(Wenya): confirm the one-sentence finding (distilled from the abstract).
+% TODO(Wenya): confirm the title. arXiv v2 uses the title below; the PDF CV still lists
+% "Give Me FP32 or Give Me Death? Challenges and Solutions for Reproducible Reasoning".
+@inproceedings{yuan2025give,
+  title={Understanding and Mitigating Numerical Sources of Nondeterminism in LLM Inference},
+  author={Yuan*, Jiayi and Li*, Hao and Ding, Xinheng and Xie, Wenya and Li, Yu-Jhe and Zhao, Wentian and Wan, Kun and Shi, Jing and Hu, Xia and Liu, Zirui},
+  booktitle={Proceedings of the 39th Annual Conference on Neural Information Processing Systems},
+  year={2025},
+  abbr={NeurIPS 2025},
+  arxiv={2506.09501},
+  award={Oral presentation at NeurIPS 2025.},
+  award_name={Oral},
+  annotation={* Equal contribution},
+  note={Changing batch size or GPU setup can shift a reasoning model's accuracy by up to 9 percent under bfloat16. <span class=pubtag>evaluation</span>},
+  selected={true}
+}
+
+@inproceedings{chen2026reasoning,
+  title={Reasoning While Asking: Transforming Reasoning Large Language Models from Passive Solvers to Proactive Inquirers},
+  author={Chen, Xin and Jiang, Feng and Zhang, Yiqian and Chen, Hardy and Yan, Shuo and Xie, Wenya and Yang, Min and Huang, Shujian},
+  booktitle={Proceedings of the 2026 Annual Meeting of the Association for Computational Linguistics},
+  year={2026},
+  abbr={ACL 2026},
+  arxiv={2601.22139}
+}
+
+% TODO(Wenya): confirm publication year and volume for npj Digital Medicine.
+@article{zhou2025automating,
+  title={Automating Expert-Level Medical Reasoning Evaluation of Large Language Models},
+  author={Zhou*, Shuang and Xie*, Wenya and Li*, Jiaxi and Zhan, Zaifu and Song, Meijia and Yang, Han and Espinoza, Cheyenna and Welton, Lindsay and Mai, Xinnie and Jin, Yanwei and Xu, Zidu and Chung, Yuen-Hei and Xing, Yiyun and Tsai, Meng-Han and Schaffer, Emma and Shi, Yucheng and Liu, Ninghao and Liu, Zirui and Zhang, Rui},
+  journal={npj Digital Medicine},
+  year={2025},
+  abbr={npj Digit. Med.},
+  arxiv={2507.07988},
+  annotation={* Equal contribution}
+}
+
+% TODO(Wenya): confirm publication year and volume for npj Health Systems.
+@article{xie2025doctor,
+  title={Enabling Doctor-Centric Medical AI with LLMs through Workflow-Aligned Tasks and Benchmarks},
+  author={Xie, Wenya and Xiao, Qingying and Zheng, Yu and Wang, Xidong and Chen, Junying and Ji, Ke and Gao, Anningzhe and Tiwari, Prayag and Wan, Xiang and Jiang, Feng and Wang, Benyou},
+  journal={npj Health Systems},
+  year={2025},
+  abbr={npj Health Syst.},
+  arxiv={2510.11040}
+}
+
+@inproceedings{li2025knowledge,
+  title={Knowledge Boundary of Large Language Models: A Survey},
+  author={Li, Moxin and Zhao, Yong and Zhang, Wenxuan and Li, Shuaiyi and Xie, Wenya and Ng, See-Kiong and Chua, Tat-Seng and Deng, Yang},
+  booktitle={Proceedings of the 2025 Annual Meeting of the Association for Computational Linguistics},
+  year={2025},
+  abbr={ACL 2025},
+  arxiv={2412.12472},
+  award={Oral presentation at ACL 2025.},
+  award_name={Oral}
+}
+
+% TODO(Wenya): add the arXiv ID or ACL Anthology link (not found by title search).
+@inproceedings{ji2025unlocking,
+  title={Unlocking LLMs' Self-Improvement Capacity with Autonomous Learning for Domain Adaptation},
+  author={Ji*, Ke and Chen*, Junying and Gao, Anningzhe and Xie, Wenya and Wan, Xiang and Wang, Benyou},
+  booktitle={Findings of the Association for Computational Linguistics: ACL 2025},
+  year={2025},
+  abbr={ACL 2025 Findings},
+  annotation={* Equal contribution}
+}
+
+% TODO(Wenya): confirm author order. This follows arXiv v3; the PDF CV lists
+% Nuo Chen before Junying Chen and Zhihong Chen.
+@inproceedings{ge2025mllm,
+  title={MLLM-Bench: Evaluating Multimodal LLMs with Per-sample Criteria},
+  author={Ge*, Wentao and Chen*, Shunian and Chen*, Guiming Hardy and Chen, Junying and Chen, Zhihong and Chen, Nuo and Xie, Wenya and Yan, Shuo and Zhu, Chenghao and Lin, Ziyue and Song, Dingjie and Wang, Xidong and Gao, Anningzhe and Zhang, Zhiyi and Li, Jianquan and Wan, Xiang and Wang, Benyou},
+  booktitle={Proceedings of the 2025 Conference of the North American Chapter of the Association for Computational Linguistics},
+  year={2025},
+  abbr={NAACL 2025},
+  arxiv={2311.13951},
+  annotation={* Equal contribution}
+}
+
+@inproceedings{chen2024huatuogpt,
+  title={HuatuoGPT-II, One-stage Training for Medical Adaption of LLMs},
+  author={Chen, Junying and Wang, Xidong and Ji, Ke and Gao, Anningzhe and Jiang, Feng and Chen, Shunian and Zhang, Hongbo and Song, Dingjie and Xie, Wenya and Kong, Chuyi and Li, Jianquan and Wan, Xiang and Li, Haizhou and Wang, Benyou},
+  booktitle={Proceedings of the First Conference on Language Modeling},
+  year={2024},
+  abbr={COLM 2024},
+  arxiv={2311.09774}
+}

@@ -11,10 +11,10 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
+    - title: Ph.D. candidate in Computer Science, advised by Prof. Zirui Liu
       institution: University of Minnesota, Minneapolis, USA
       year: 2025.1-now
-    - title: Bachelar
+    - title: Bachelor
       institution: Wuhan University, Wuhan, China
       year: 2017.9 - 2021.6
 
@@ -23,7 +23,7 @@
   contents:
     - title: Machine Learning Engineer Intern
       institution: Adobe Inc., San Jose, CA, USA
-      year: 2026.5 - present
+      year: 2026.5 - 2026.8 # TODO(Wenya): confirm the end month (taken from the PDF CV)
     - title: Research Assistant
       institution: University of Minnesota, Minneapolis, USA
       year: 2025.1 - now
@@ -35,23 +35,39 @@
       year: 2021.7 - 2023.6
 
 - title: Academic Interests
-  type: nested_list
+  type: list
   contents:
-    - title: AI That Understands People
-      items:
-        - How AI can infer what a person wants from vague requests, everyday activity, and feedback, both to act for the person (personal agents) and to act as the person (user simulation).
+    - "Data and evaluation for LLM agents: how much data and how large a model it takes to do a task reliably, and how to measure it. Synthetic data, mid- and post-training, long-horizon agent evaluation, efficient reasoning."
 
-    - title: Training
-      items:
-        - Mid-training on synthetic data to predict how individuals decide, and post-training from vague, real-world user feedback.
+# Keep in sync with _bibliography/papers.bib. * marks equal contribution.
+- title: Publications
+  type: list
+  contents:
+    - "<strong>Wenya Xie</strong>, Shengming Zhou, Zelin Li, Pouya Parsa, Shuang Zhou, Xinheng Ding, Chinmay Arvind, Guanchu Wang, Vladimir Braverman, Ali Payani, Yantao Zheng, Zirui Liu. DynamicMem: A Long-Horizon Memory Benchmark in Real-World Settings. Preprint, under review, 2026."
+    - "Zidi Xiong*, Yuping Lin*, <strong>Wenya Xie</strong>*, Pengfei He, Zirui Liu, Jiliang Tang, Himabindu Lakkaraju, Zhen Xiang. How Memory Management Impacts LLM Agents: An Empirical Study of Experience-Following Behavior. ACL 2026 (Oral)."
+    - "Xin Chen, Feng Jiang, Yiqian Zhang, Hardy Chen, Shuo Yan, <strong>Wenya Xie</strong>, Min Yang, Shujian Huang. Reasoning While Asking: Transforming Reasoning Large Language Models from Passive Solvers to Proactive Inquirers. ACL 2026."
+    - "<strong>Wenya Xie</strong>*, Shaochen (Henry) Zhong*, Hoang Anh Duy Le, Zhaozhuo Xu, Jianwen Xie, Zirui Liu. Word Salad Chopper: Reasoning Models Waste A Ton Of Decoding Budget On Useless Repetitions, Self-Knowingly. EMNLP 2025 (Oral)."
+    - "Jiayi Yuan*, Hao Li*, Xinheng Ding, <strong>Wenya Xie</strong>, Yu-Jhe Li, Wentian Zhao, Kun Wan, Jing Shi, Xia Hu, Zirui Liu. Understanding and Mitigating Numerical Sources of Nondeterminism in LLM Inference. NeurIPS 2025 (Oral)."
+    - "Shuang Zhou*, <strong>Wenya Xie</strong>*, Jiaxi Li*, Zaifu Zhan, Meijia Song, Han Yang, Cheyenna Espinoza, Lindsay Welton, Xinnie Mai, Yanwei Jin, Zidu Xu, Yuen-Hei Chung, Yiyun Xing, Meng-Han Tsai, Emma Schaffer, Yucheng Shi, Ninghao Liu, Zirui Liu, Rui Zhang. Automating Expert-Level Medical Reasoning Evaluation of Large Language Models. npj Digital Medicine."
+    - "<strong>Wenya Xie</strong>, Qingying Xiao, Yu Zheng, Xidong Wang, Junying Chen, Ke Ji, Anningzhe Gao, Prayag Tiwari, Xiang Wan, Feng Jiang, Benyou Wang. Enabling Doctor-Centric Medical AI with LLMs through Workflow-Aligned Tasks and Benchmarks. npj Health Systems."
+    - "Moxin Li, Yong Zhao, Wenxuan Zhang, Shuaiyi Li, <strong>Wenya Xie</strong>, See-Kiong Ng, Tat-Seng Chua, Yang Deng. Knowledge Boundary of Large Language Models: A Survey. ACL 2025 (Oral)."
+    - "Ke Ji*, Junying Chen*, Anningzhe Gao, <strong>Wenya Xie</strong>, Xiang Wan, Benyou Wang. Unlocking LLMs' Self-Improvement Capacity with Autonomous Learning for Domain Adaptation. Findings of ACL 2025."
+    - "Wentao Ge*, Shunian Chen*, Guiming Hardy Chen*, Junying Chen, Zhihong Chen, Nuo Chen, <strong>Wenya Xie</strong>, Shuo Yan, Chenghao Zhu, Ziyue Lin, Dingjie Song, Xidong Wang, Anningzhe Gao, Zhiyi Zhang, Jianquan Li, Xiang Wan, Benyou Wang. MLLM-Bench: Evaluating Multimodal LLMs with Per-sample Criteria. NAACL 2025."
+    - "Junying Chen, Xidong Wang, Ke Ji, Anningzhe Gao, Feng Jiang, Shunian Chen, Hongbo Zhang, Dingjie Song, <strong>Wenya Xie</strong>, Chuyi Kong, Jianquan Li, Xiang Wan, Haizhou Li, Benyou Wang. HuatuoGPT-II, One-stage Training for Medical Adaption of LLMs. COLM 2024."
 
-    - title: Memory and Test-Time Adaptation
-      items:
-        - How agents store, update, and retrieve what they know about a user, and how models decide when to ask, reason, or act.
+- title: Talks
+  type: list
+  contents:
+    # TODO(Wenya): confirm the title and date.
+    - "Remembering a User, Simulating a User. Guest lecture, CSCI 8000, University of Georgia, October 2026."
+    # TODO(Wenya): add the NICE Talk title and date.
+    - "NICE Talk."
 
-    - title: Broad Interests
-      items:
-        - Personal agents, user simulation, mid-/post-training, test-time adaptation, memory, and scaling laws.
+- title: Awards
+  type: list
+  contents:
+    # TODO(Wenya): confirm the name and year.
+    - "ICML 2026 Silver Reviewer."
 
 - title: Other Interests
   type: list
