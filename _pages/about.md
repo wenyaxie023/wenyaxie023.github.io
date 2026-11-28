@@ -36,9 +36,9 @@ outside_of_research: >
   daily journal.
 ---
 
-I’m **Wenya Xie**, a Ph.D. candidate in Computer Science at the **University of Minnesota**, advised by [Prof. Zirui Liu](https://zirui-ray-liu.github.io/). Previously, I was a research assistant at CUHK (Shenzhen) with Prof. Benyou Wang and Feng Jiang.
+I’m Wenya Xie, a Ph.D. candidate in Computer Science at the University of Minnesota, advised by [Prof. Zirui Liu](https://zirui-ray-liu.github.io/). Previously, I was a research assistant at CUHK (Shenzhen) with Prof. [Benyou Wang](https://freedomintelligence.github.io/people/benyou-wang/?lang=en) and [Feng Jiang](https://fjiangai.github.io/).
 
-I work on data and evaluation for LLM agents. Agents will only be everywhere once they are cheap to build and run, so the question I care about is how much data and how large a model it takes to do a task reliably, and how to measure that. My work on agent memory, efficient reasoning, and evaluation has appeared at ACL, NeurIPS, and EMNLP, including three oral presentations. I’m now working on mid-training: building the data and measuring whether it works.
+I work on data and evaluation for LLM agents. Agents will only be everywhere once they are cheap to build and run, so the question I care about is **how much data and how large a model it takes to do a task reliably, and how to measure that**. My work on agent memory, efficient reasoning, and evaluation has appeared at ACL, NeurIPS, and EMNLP, including three oral presentations. I’m now working on mid-training: building the data and measuring whether it works.
 
 <div class="intern-callout">
   <span class="intern-dot" aria-hidden="true"></span>
